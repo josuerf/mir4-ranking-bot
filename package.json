@@ -2,7 +2,7 @@
   "name": "mir4-ranker-bot",
   "version": "1.0.0",
   "description": "Mir4 Ranker bot for discord",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
@@ -15,11 +15,11 @@
   ],
   "author": "Josué Freitas",
   "license": "ISC",
-  
   "dependencies": {
     "@google-cloud/local-auth": "^2.1.0",
     "discord.js": "^14.7.1",
     "fs": "^0.0.1-security",
-    "googleapis": "^105.0.0"
+    "googleapis": "^105.0.0",
+    "tesseract.js": "^4.0.1"
   }
 }
